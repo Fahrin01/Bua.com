@@ -1,0 +1,25 @@
+# Uploaded maid photos (keep the folder)
+assets/uploads/maids/*
+!assets/uploads/maids/.gitkeep
+
+# Environment / local config
+.env
+.env.*
+
+# Logs
+*.log
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Local tooling
+.commit-progress
+.commit-plan
+.commit-push.sh
